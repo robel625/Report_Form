@@ -1,0 +1,39 @@
+.MainSection{
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    /* border: solid 1.5px gray;
+    box-shadow: 22px 0 15px -4px  #000000, -10px 0 8px -4px #000000; */
+    -webkit-box-shadow: 10px -1px 67px 19px rgba(0,0,0,0.18);
+-moz-box-shadow: 10px -1px 67px 19px rgba(0,0,0,0.18);
+box-shadow: 10px -1px 67px 19px rgba(0,0,0,0.18);
+}
+
+.infohead {
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.tree-select-class{
+    width: 100%;
+}
+
+/* display: "block", marginTop: 10, marginBottom: 1, textTransform: 'capitalize' */
+.inboxTitle{
+    margin-top: 10px;
+    margin-bottom: 1px;
+    /* text-transform: capitalize; */
+    display: block;
+    /* padding-bottom: 3px; */
+
+}
+
+@media only screen and (max-width: 700px) {
+    .tree-select-class { /* Replace with your actual class name */
+      width: 100%;
+    }
+  }

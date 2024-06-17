@@ -1,0 +1,69 @@
+{
+  "About": "ስለ እኛ",
+  "Blog": "ብሎግ",
+  "Policy": "ፖሊሲ",
+  "Mission": "Misión",
+  "Product": "Producto",
+  "Tell us everything": "ያሎትን ሀሳብ ያጋሩን",
+  "Contact": "አግኙን",
+  "Do you have any question? Feel free to reach out.": "ማንኛውም ጥያቄ ካሎት መጠየቅ ይችላሉ",
+  "Let's Chat": "እናውራ",
+  "Application Security": "አፕልኬሽን ደንነት",
+  "Software Principles": "የሶፍትዌር መርሆች",
+  "Company": "ድርጅት",
+  "Support Center": "Centro de Apoyo",
+  "Customer Support": "Atención al cliente",
+  "Address": "አድራሻ",
+  "Ethiopia": "ኢትዮጵያ",
+  "Piazza, Addis Ababa": "ፒያሳ አዲስ አበባ",
+  "Press": "ፕሬስ",
+  "905 Customer Support": "905 የጥሪ መዐከል",
+  "Careers & Culture": "Carreras & cultura",
+  "Language": "ቐንቐ",
+  "Explore": "Explorar",
+  "Learn more": "Más información",
+  "Get started": "Comenzar",
+  "Submit": "ላክ",
+  "Message" : "Mensaje",
+  "Your Message": "Tu Mensaje",
+  "Name" : "Nombre",
+
+  "Your Name": "የአርሶ ስም",
+  "Email" : "ኢሜል",
+  "Your Email": "የአርሶ ኢሜል",
+  "Your Phone Number": "የአርሶ ስልክ ቁጥር",
+  "Your Address": "የአርሶ አድራሻ",
+
+  "Your Name (optional)": "የአርሶ ስም",
+  "Your phone": "የአርሶ ስልክ",
+  "Your email (optional)": "የአርሶ ኢሜል",
+  "Your Address (optional)":"የአርሶ አድራሻ",
+
+  
+  "Ethics and Anti-Corruption Directorate Public Feed Back System": "የኢትዮጵያ ኤሌክትሪክ አገልግሎት ስነምግባር አና ፀረ ሙስና ዳሬክቶሬት አስተያየት መሰጫ እና መመዘኛ",
+  "United": "ሙስና የጋራ ጠላታችን ነው",
+  "Against Corruption": "በህብረት እንታገል",
+  "Report": "ሪፖርት አድርግ",
+  "Your Information": "የአርሶ ማንነት",
+  
+  
+
+
+
+  "Incident Information": "ድርጊቱ የተከናወነበት ቀን አና ቦታ",
+  "Incident happend date (optional)": "ድርጊቱ የተከናወነበትን ቀን",
+  "Incident happend Location": "ድርጊቱ የተከናወነበትን ቦታ",
+
+  "Upload Your files": "ያሎትን መረጃ ይጫኑ",
+
+  "Suspect's Information (optional)": "የተጠርጣሪው መረጃ",
+  "Suspect's Name": "የተጠርጣሪው ስም",
+  "Suspect's Phone Number": "የተጠርጣሪው ስልክ ቁጥር",
+  "Suspect's Position": "የተጠርጣሪው የስራ ሁኔታ (ሥልጣን ፣ ቦታ)",
+
+  "To which EEU (Region, District, CSC) to inform your suggestion (optional)": "የትኛውን ተቋም ጥቆማዎን ማሳወቅ ይፈልጋሉ",
+  "Details of your Report": "ጥቆማ ዝርዝሮች",
+  "Submit supporting evidence for your report": "ለጥቆማ ደጋፊ ማስረጃ ያቅርቡ"
+
+
+}
