@@ -46,9 +46,13 @@
   "Report": "ሪፖርት አድርግ",
   "Your Information": "የአርሶ ማንነት",
   
-  
+  "Report form": "የሪፖርት ቅፅ",
+  "Report form containt":
+  "የኢትዮጵያ ኤሌክትሪክ አገልግሎት ስነምግባር አና ፀረ ሙስና ዳሬክቶሬት አስተያየት መሰጫ እና መመዘኛ",
 
-
+  "This form allows you to report suspected corruption in a safe and confidential manner.":
+  "",
+  "middle block content":"",
 
   "Incident Information": "ድርጊቱ የተከናወነበት ቀን አና ቦታ",
   "Incident happend date (optional)": "ድርጊቱ የተከናወነበትን ቀን",

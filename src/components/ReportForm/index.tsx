@@ -20,10 +20,32 @@ import { treeData } from "../../common/TreeData";
 import ProgressBar from "@ramonak/react-progress-bar";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faCloudUpload } from '@fortawesome/free-solid-svg-icons';
+import EtDatePicker from "mui-ethiopian-datepicker";
+import { EtLocalizationProvider } from 'mui-ethiopian-datepicker';
+import { EtDateViewer } from "mui-ethiopian-datepicker";
+import i18n from "../../translation";
 
 
 const ReportForm = ({ title, content, id, t }: ContactProps) => {
   const { values, errors, handleChange, handleSubmit,  progress, msg, setFormState} = useForm(validate);
+
+  const [date, setDate] = useState<Date | null>(null);
+
+  const handleDateChange = (selectedDate: Date) => {
+    setDate(selectedDate);
+
+    setFormState((prevState) => ({
+      ...prevState,
+      values: {
+        ...prevState.values,
+        ["date"]: selectedDate.toISOString().split("T")[0]
+      },
+      errors: {
+        ...prevState.errors,
+        ["date"]: "",
+      },
+    }));
+  };
 
   const ValidationType = ({ type }: ValidationTypeProps) => {
     const ErrorMessage = errors[type as keyof typeof errors];
@@ -74,7 +96,7 @@ const ReportForm = ({ title, content, id, t }: ContactProps) => {
       <Row justify="space-between">
         <Col lg={12} md={11} sm={24} xs={24}>
           <Slide direction="left" triggerOnce>
-            <Block title={title} content={content} />
+            <Block title={t(title)} content={t(content)} />
           </Slide>
         </Col>
         <Col lg={12} md={12} sm={24} xs={24}>
@@ -135,7 +157,18 @@ const ReportForm = ({ title, content, id, t }: ContactProps) => {
               <Row justify="space-between" align="middle">
               <Col lg={12} md={12} sm={12} xs={24}>
               <div className="inboxTitle">{t("Incident happend date (optional)")}</div>
+              {i18n.language == 'en' ? (
                  <DatePicker onChange={onChangeDate}  style={{ width: "80%", marginBottom: 10,}}/>
+                ) : (
+                 <EtLocalizationProvider locale="AMH">
+                 <EtDatePicker
+                  onChange={handleDateChange}
+                  value={date}
+                  minDate={new Date("2010-08-20")}
+                  maxDate={new Date("2030-08-26")}
+                 />
+                  </EtLocalizationProvider>
+                  )}
                 <ValidationType type="date" />
               </Col>
               <Col lg={12} md={12} sm={12} xs={24}>

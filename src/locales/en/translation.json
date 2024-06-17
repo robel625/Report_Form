@@ -41,6 +41,14 @@
   "Report": "Report",
   "Your Information": "Your Information",
 
+  "This form allows you to report suspected corruption in a safe and confidential manner.":
+  "This form allows you to report suspected corruption in a safe and confidential manner.",
+  "middle block content": "your contact information will be kept strictly confidential. It will only be accessed by authorized personnel involved in the investigation and will not be shared with anyone outside the designated team.",
+
+  "Report form": "Report form",
+  "Report form containt":
+  "The following form demonstrates form validation in action. Contact form component reduces the amount of time it is being re-rendered by the user as it embraces uncontrolled form validation to reduce any unnecessary performance penalty.",
+
   "Your Name (optional)": "Your Name (optional)",
   "Your phone":"Your phone",
   "Your email (optional)": "Your email (optional)",
